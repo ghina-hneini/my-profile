@@ -1,0 +1,134 @@
+/* Colors & Fonts */
+body{
+	background-color: lavender;
+	color: dimgray;
+	font-family: helvetica;
+}
+
+h1{
+	font-family: 'Cormorant Upright', serif;
+    text-transform: uppercase;	
+}
+
+
+h2,p,a {	
+	font-family: 'Cormorant Upright', serif;
+}
+
+h2{
+	font size: 30px;
+	font-weight: 500;
+	color: #523073;
+	}
+
+p{	
+	font-family: 'Cormorant Upright', serif;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 15px;
+}
+
+a:hover	{
+	font-weight: 800;
+	font-size: 20px;
+
+}
+
+/* Classes & IDs */
+.container{
+	width: 800px;
+	margin: 5px auto;
+}
+
+.container-purple{
+	width: 700px;
+	margin: 5px auto;
+	background: #e6e6fa;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+	.container{	
+		width: 700px;
+	}
+}
+
+@media (max-width: 960px) {
+	.container-purple{	
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{	
+		width: 500px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container-purple{	
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{	
+		width: 300px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container-purple{	
+		width: 300px;
+	}
+}
+
+.img-circle{
+	width:  200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.img-shadow {
+	box-shadow: 10px 5px 5px darkgray;
+}
+
+#DP{
+	border:  5px solid #6b12b0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.btn-rectangle{
+	background-color: lavenderblush;
+	padding: 15px 20px;
+	border-radius: 7px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:hover{
+	color: 	black;
+}
